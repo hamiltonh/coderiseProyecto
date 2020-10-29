@@ -26,14 +26,15 @@
   
   .product-device {
     position: absolute;
-    right: 10%;
-    bottom: -30%;
-    width: 300px;
-    height: 540px;
+    right: 3%;
+    bottom: 0%;
+    width: 400px;
+    height: 400px;
     background-color: #333;
-    border-radius: 21px;
+    border-radius: 50%;
     -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
+    background-image: url('../img/sunshine-coast-queensland-australia-facts.jpg');
   }
   
   .product-device::before {
@@ -48,11 +49,12 @@
   }
   
   .product-device-2 {
-    top: -25%;
+    top: 0%;
     right: auto;
     bottom: 0;
-    left: 5%;
+    /*left: 5%;*/
     background-color: #e5e5e5;
+    background-image: url('../img/640px-New_york_times_square-terabass.jpg');
   }
   
   
