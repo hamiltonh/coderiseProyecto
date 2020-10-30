@@ -37,6 +37,12 @@
     background-image: url('../img/sunshine-coast-queensland-australia-facts.jpg');
   }
   
+  .product-device:hover{
+      background-size: cover;
+      transform: rotate(-5deg);
+      transition-duration: 1s;
+  }
+  
   .product-device::before {
     position: absolute;
     top: 10%;
